@@ -1,5 +1,4 @@
 #include<iostream>
-#include<conio.h>
 #include<math.h>
 int caua(int num);
 int caub(int num);
@@ -13,7 +12,7 @@ int main(){
   cout<<"b)S = "<<caub(num)<<endl;
   cout<<"c)S = "<<cauc(num)<<endl;
   cout<<"d)S = "<<caud(num)<<endl;
-  getch();
+  return 0;
 }
 int caua(int num){
   if(num==1) return 1;
