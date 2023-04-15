@@ -1,5 +1,4 @@
 #include<iostream>
-#include<conio.h>
 #define max 1000
 void nhapMang(int a[],int n);
 void xuatMang(int a[],int n);
@@ -15,7 +14,7 @@ int main(){
     nhapMang(a,n);cout<<endl;
     HeapSort(a,n);
     xuatMang(a,n);
-    getch();
+    return 0;
 }
 void nhapMang(int a[],int n){
  for(int i=0;i<n;i++){
